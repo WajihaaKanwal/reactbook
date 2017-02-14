@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello React!</title>
+</head>
+<body>
+<div id='app'>
+  
+</div>
+<script src="../react/build/react.js"></script>
+<script src="../react/build/react-dom.js"></script>
+<script>
+  
+  /*
+    ReactDOM.render(reactWhat, domWhere) )
+    React.DOM.div(attributes, children)
+   */
+  
+  ReactDOM.render(
+      React.DOM.h1(null, 'Hello World!'),
+      document.getElementById('app')
+  );
+
+//  ReactDOM.render(
+//      React.DOM.h1(null, 'Hello World!', 'Pakistan'),
+//      document.getElementById('app')
+//  );
+
+//  ReactDOM.render(
+//      React.DOM.h1({
+//          id: 'my-heading'
+//      }, 'Hello World!'),
+//      document.getElementById('app')
+//  );
+  
+//  ReactDOM.render(
+//      React.DOM.h1({id: 'heading'},
+//        React.DOM.span({id: 'text'}, 'Hello World')
+//      ),
+//      document.getElementById('app')
+//  );
+
+//ReactDOM.render(
+//    React.DOM.h1(null,
+//        React.DOM.span(null,
+//            'My ',
+//            React.DOM.em(null, 'Pakistan '),
+//            'Hello World')
+//    ),
+//    document.getElementById('app')
+//);
+
+//  ReactDOM.render(
+//      React.DOM.h1({
+//          className: 'blue',
+//          htmlFor: 'txt-input'
+//      }, 'Hello World!'),
+//      document.getElementById('app')
+//  );
+
+//  ReactDOM.render(
+//      React.DOM.h1({
+//          style: {
+//              color: 'white',
+//              background: 'blue',
+//              fontFamily: 'sans-serif'
+//          }
+//      }, 'Hello World!'),
+//      document.getElementById('app')
+//  );
+</script>
+</body>
+</html>
